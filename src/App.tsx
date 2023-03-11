@@ -38,9 +38,6 @@ function Wrapper() {
       return;
     }
     let k: string | number = Math.floor(d / 10) * 10;
-    if (k >= 30 && k < 40) {
-      k = 'base';
-    }
 
     if (k > 80) {
       k = '80';
@@ -62,9 +59,6 @@ function Wrapper() {
     const d = Math.max(w, h);
 
     let k: string | number = Math.floor(d / 10) * 10;
-    if (k >= 30 && k < 40) {
-      k = 'base';
-    }
 
     if (k > 80) {
       k = '80';
